@@ -1,13 +1,13 @@
-import hero from '../../../Fotos/LMM/Living.jpg'
+import hero from '../../../Fotos/Otimizadas/LMM/Living.jpg.webp'
 import logo from '../../../Fotos/LMM/Logo.jpg'
-import introduction from '../../../Fotos/LMM/Smart V.jpg'
-import catalogue from '../../../Fotos/LMM/Fontana.jpg'
-import chairs from '../../../Fotos/LMM/Izan.jpg'
-import barStools from '../../../Fotos/LMM/Cotton.jpg'
-import officialSite from '../../../Fotos/LMM/Smart.jpg'
-import tables from '../../../Fotos/LMM/Mesas.jpg'
-import officeChairs from '../../../Fotos/LMM/Cadeiras Escritório.jpg'
-import footer from '../../../Fotos/LMM/Fundo.jpg'
+import introduction from '../../../Fotos/Otimizadas/LMM/Smart V.jpg.webp'
+import catalogue from '../../../Fotos/Otimizadas/LMM/Fontana.jpg.webp'
+import chairs from '../../../Fotos/Otimizadas/LMM/Izan.jpg.webp'
+import barStools from '../../../Fotos/Otimizadas/LMM/Cotton.jpg.webp'
+import officialSite from '../../../Fotos/Otimizadas/LMM/Smart.jpg.webp'
+import tables from '../../../Fotos/Otimizadas/LMM/Mesas.jpg.webp'
+import officeChairs from '../../../Fotos/Otimizadas/LMM/Cadeiras Escritório.jpg.webp'
+import footer from '../../../Fotos/Otimizadas/LMM/Fundo.jpg.webp'
 
 export type LmmMedia = {
   hero: string

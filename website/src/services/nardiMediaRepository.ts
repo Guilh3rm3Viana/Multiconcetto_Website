@@ -1,12 +1,12 @@
-import hero from '../../../Fotos/Nardi/NARDI 6.png'
-import introduction from '../../../Fotos/Nardi/NARDI 7.jpg'
-import catalogue from '../../../Fotos/Nardi/NARDI 4.jpg'
-import tablesAndChairs from '../../../Fotos/Nardi/NARDI 5.jpg'
-import sofas from '../../../Fotos/Nardi/NARDI 3.jpg'
-import officialSite from '../../../Fotos/Nardi/NARDI 1.jpg'
-import lounge from '../../../Fotos/Nardi/NARDI 2.png'
-import restaurants from '../../../Fotos/Nardi/NARDI 9.jpg'
-import footer from '../../../Fotos/Nardi/NARDI 8.jpg'
+import hero from '../../../Fotos/Otimizadas/Nardi/NARDI 6.png.webp'
+import introduction from '../../../Fotos/Otimizadas/Nardi/NARDI 7.jpg.webp'
+import catalogue from '../../../Fotos/Otimizadas/Nardi/NARDI 4.jpg.webp'
+import tablesAndChairs from '../../../Fotos/Otimizadas/Nardi/NARDI 5.jpg.webp'
+import sofas from '../../../Fotos/Otimizadas/Nardi/NARDI 3.jpg.webp'
+import officialSite from '../../../Fotos/Otimizadas/Nardi/NARDI 1.jpg.webp'
+import lounge from '../../../Fotos/Otimizadas/Nardi/NARDI 2.png.webp'
+import restaurants from '../../../Fotos/Otimizadas/Nardi/NARDI 9.jpg.webp'
+import footer from '../../../Fotos/Otimizadas/Nardi/NARDI 8.jpg.webp'
 
 export type NardiMedia = {
   hero: string

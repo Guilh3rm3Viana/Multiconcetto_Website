@@ -1,13 +1,13 @@
-import hero from '../../../Fotos/Ezpeleta/ezpeleta_2.png'
+import hero from '../../../Fotos/Otimizadas/Ezpeleta/ezpeleta_2.png.webp'
 import logo from '../../../Fotos/Representadas_Parceiros/Logo Ezpeleta.jpg'
-import introduction from '../../../Fotos/Ezpeleta/ezpeleta_1.png'
-import catalogue from '../../../Fotos/Ezpeleta/ezpeleta_5.png'
-import tablesAndChairs from '../../../Fotos/Ezpeleta/ezpeleta_4.png'
-import lounge from '../../../Fotos/Ezpeleta/HotelMinho1.jpg'
-import officialSite from '../../../Fotos/Ezpeleta/ezpeleta_7.jpg'
-import parasols from '../../../Fotos/Ezpeleta/ezpeleta_3.png'
+import introduction from '../../../Fotos/Otimizadas/Ezpeleta/ezpeleta_1.png.webp'
+import catalogue from '../../../Fotos/Otimizadas/Ezpeleta/ezpeleta_5.png.webp'
+import tablesAndChairs from '../../../Fotos/Otimizadas/Ezpeleta/ezpeleta_4.png.webp'
+import lounge from '../../../Fotos/Otimizadas/Ezpeleta/HotelMinho1.jpg.webp'
+import officialSite from '../../../Fotos/Otimizadas/Ezpeleta/ezpeleta_7.jpg.webp'
+import parasols from '../../../Fotos/Otimizadas/Ezpeleta/ezpeleta_3.png.webp'
 import dividers from '../../../Fotos/Ezpeleta/ezpeleta_6.jpg'
-import footer from '../../../Fotos/Ezpeleta/Fundo Página.jpg'
+import footer from '../../../Fotos/Otimizadas/Ezpeleta/Fundo Página.jpg.webp'
 
 export type EzpeletaMedia = {
   hero: string

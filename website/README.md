@@ -10,6 +10,12 @@ Configurar `website` como **Root Directory**, com o preset **Vite**, o comando d
 
 O ficheiro `vercel.json` nesta pasta encaminha as rotas para `index.html`, permitindo abrir diretamente ou atualizar páginas como `/representadas`, `/contactos` e `/representadas/nardi`. Os ficheiros estáticos existentes continuam a ser servidos normalmente. Depois de alterar esta configuração, é necessário um novo deployment.
 
+## Fotografias otimizadas
+
+Os serviços em `src/services/*MediaRepository.ts` e `mediaRepository.ts` usam versões WebP guardadas em `../Fotos/Otimizadas`, com a mesma estrutura de pastas dos originais. Os nomes preservam a extensão original e acrescentam `.webp`, por exemplo `Representadas_Parceiros/RP 1.png.webp`. Os originais continuam nas pastas descritas abaixo; os logótipos, o mapa e as capas dos PDFs mantêm os seus ficheiros existentes. `Ezpeleta/ezpeleta_6.jpg` mantém o JPEG porque já é mais leve do que a versão WebP com esta qualidade.
+
+Depois de substituir uma fotografia original, executar `npm run optimize:images` em `website` e incluir os WebP atualizados no Git. O script `scripts/optimize-images.mjs` procura as importações de `Fotos/Otimizadas` nos serviços e gera as versões a partir dos originais com qualidade 84, até 1920 px de largura e altura, mantendo as proporções e sem ampliar imagens pequenas. Para uma nova fotografia, atualizar a importação no serviço correspondente para `Fotos/Otimizadas/<caminho original>.webp` e executar o mesmo comando. A geração é local; o build e os visitantes usam os ficheiros já otimizados.
+
 ## Onde alterar cada parte
 
 | Alteração | Ficheiro |

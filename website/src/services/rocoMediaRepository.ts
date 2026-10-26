@@ -1,13 +1,13 @@
-import hero from '../../../Fotos/Roco/ROMERO 6.png'
+import hero from '../../../Fotos/Otimizadas/Roco/ROMERO 6.png.webp'
 import logo from '../../../Fotos/Roco/Logo.jpg'
-import introduction from '../../../Fotos/Roco/Introducao.jpg'
-import catalogue from '../../../Fotos/Roco/ROMERO 5.png'
-import hotels from '../../../Fotos/Roco/foto-hoteles.jpg'
-import restaurants from '../../../Fotos/Roco/foto-restauracion.jpg'
-import officialSite from '../../../Fotos/Romero/ROMERO 2.png'
-import lobbies from '../../../Fotos/Roco/foto-lobbies.jpg'
-import outdoor from '../../../Fotos/Roco/foto-exterior.jpg'
-import footer from '../../../Fotos/Roco/hero-portada.jpg'
+import introduction from '../../../Fotos/Otimizadas/Roco/Introducao.jpg.webp'
+import catalogue from '../../../Fotos/Otimizadas/Roco/ROMERO 5.png.webp'
+import hotels from '../../../Fotos/Otimizadas/Roco/foto-hoteles.jpg.webp'
+import restaurants from '../../../Fotos/Otimizadas/Roco/foto-restauracion.jpg.webp'
+import officialSite from '../../../Fotos/Otimizadas/Romero/ROMERO 2.png.webp'
+import lobbies from '../../../Fotos/Otimizadas/Roco/foto-lobbies.jpg.webp'
+import outdoor from '../../../Fotos/Otimizadas/Roco/foto-exterior.jpg.webp'
+import footer from '../../../Fotos/Otimizadas/Roco/hero-portada.jpg.webp'
 
 export type RocoMedia = {
   hero: string

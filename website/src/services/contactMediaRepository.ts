@@ -1,7 +1,7 @@
-import hero from '../../../Fotos/Contactos/Rattan Contctos.jpg'
+import hero from '../../../Fotos/Otimizadas/Contactos/Rattan Contctos.jpg.webp'
 import map from '../../../Fotos/Contactos/Maps.jpg'
-import building from '../../../Fotos/Contactos/20260915_164750.jpg'
-import footer from '../../../Fotos/Contactos/Fundo Contactos.jpg'
+import building from '../../../Fotos/Otimizadas/Contactos/20260915_164750.jpg.webp'
+import footer from '../../../Fotos/Otimizadas/Contactos/Fundo Contactos.jpg.webp'
 
 export type ContactMedia = {
   hero: string

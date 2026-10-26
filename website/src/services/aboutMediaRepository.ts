@@ -1,7 +1,7 @@
-import team from '../../../Fotos/Quem Somos/Equipa.jpg'
-import mission from '../../../Fotos/Quem Somos/QS 2.jpg'
-import afterSales from '../../../Fotos/Quem Somos/QS 5.jpg'
-import footer from '../../../Fotos/Quem Somos/QS 4.jpg'
+import team from '../../../Fotos/Otimizadas/Quem Somos/Equipa.jpg.webp'
+import mission from '../../../Fotos/Otimizadas/Quem Somos/QS 2.jpg.webp'
+import afterSales from '../../../Fotos/Otimizadas/Quem Somos/QS 5.jpg.webp'
+import footer from '../../../Fotos/Otimizadas/Quem Somos/QS 4.jpg.webp'
 
 export type AboutMedia = {
   team: string

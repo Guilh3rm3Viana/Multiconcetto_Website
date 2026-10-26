@@ -1,12 +1,12 @@
-import hero from '../../../Fotos/Romero/ROMERO 5.png'
+import hero from '../../../Fotos/Otimizadas/Romero/ROMERO 5.png.webp'
 import logo from '../../../Fotos/Representadas_Parceiros/Logo Romero White.png'
-import introduction from '../../../Fotos/Romero/ROMERO 1.png'
-import catalogue from '../../../Fotos/Romero/ROMERO 4.png'
-import restaurants from '../../../Fotos/Romero/ROMERO 6.png'
-import catering from '../../../Fotos/Romero/ROMERO 3.png'
-import officialSite from '../../../Fotos/Romero/ROMERO 2.png'
-import outdoor from '../../../Fotos/Romero/Exterior.jpg'
-import footer from '../../../Fotos/Romero/Fundo Romero.jpg'
+import introduction from '../../../Fotos/Otimizadas/Romero/ROMERO 1.png.webp'
+import catalogue from '../../../Fotos/Otimizadas/Romero/ROMERO 4.png.webp'
+import restaurants from '../../../Fotos/Otimizadas/Romero/ROMERO 6.png.webp'
+import catering from '../../../Fotos/Otimizadas/Romero/ROMERO 3.png.webp'
+import officialSite from '../../../Fotos/Otimizadas/Romero/ROMERO 2.png.webp'
+import outdoor from '../../../Fotos/Otimizadas/Romero/Exterior.jpg.webp'
+import footer from '../../../Fotos/Otimizadas/Romero/Fundo Romero.jpg.webp'
 
 export type RomeroMedia = {
   hero: string
