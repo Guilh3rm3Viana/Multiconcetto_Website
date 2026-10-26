@@ -4,6 +4,12 @@
 
 Na pasta `website`, executar `npm install` (na primeira vez) e `npm run dev`. Para verificar o projeto: `npm run lint` e `npm run build`.
 
+## Publicar na Vercel
+
+Configurar `website` como **Root Directory**, com o preset **Vite**, o comando de build `npm run build` e a pasta de saída `dist`. Permitir a inclusão de ficheiros fora da Root Directory no build, porque as fotografias e os catálogos estão em `../Fotos` e `../Catalogos`.
+
+O ficheiro `vercel.json` nesta pasta encaminha as rotas para `index.html`, permitindo abrir diretamente ou atualizar páginas como `/representadas`, `/contactos` e `/representadas/nardi`. Os ficheiros estáticos existentes continuam a ser servidos normalmente. Depois de alterar esta configuração, é necessário um novo deployment.
+
 ## Onde alterar cada parte
 
 | Alteração | Ficheiro |
