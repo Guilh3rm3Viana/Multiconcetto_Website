@@ -1,0 +1,31 @@
+.contactos-page { padding-top: 92px; }
+.contactos-page__hero { width: min(100% - 48px, 1450px); margin: 0 auto; }
+.contactos-page__hero img { width: 100%; aspect-ratio: 1655 / 589; object-fit: cover; }
+.contactos-page h1, .contactos-page h2 { font-weight: 400; line-height: 1.2; }
+.contactos-page__title { margin: 34px 18px 0; text-align: center; font-size: clamp(2rem, 3vw, 2.6rem); }
+.contactos-page h2 { font-size: clamp(1.6rem, 2.1vw, 2rem); }
+.contactos-page__section { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: center; gap: clamp(48px, 7vw, 110px); width: min(100% - 96px, 1240px); margin: 0 auto; }
+.contactos-page__location { padding-block: 80px 70px; }
+.contactos-page__map { display: block; }
+.contactos-page__map img { width: 100%; aspect-ratio: 1359 / 811; object-fit: contain; }
+.contactos-page__map:focus-visible { outline: 2px solid #30302c; outline-offset: 6px; }
+.contactos-page__details { justify-self: center; }
+.contactos-page__details h2 { margin-bottom: 30px; }
+.contactos-page__details address { font-style: normal; font-size: clamp(1rem, 1.2vw, 1.12rem); line-height: 1.65; }
+.contactos-page__details p { margin-bottom: 22px; }
+.contactos-page__details p:last-child { margin-bottom: 0; }
+.contactos-page__details a { text-underline-offset: 4px; }
+.contactos-page__request { padding-block: 45px 100px; }
+.contactos-page__building { width: 100%; height: auto; }
+
+@media (max-width: 760px) {
+  .contactos-page { padding-top: 72px; }
+  .contactos-page__hero { width: 100%; }
+  .contactos-page__hero img { min-height: 225px; object-position: center; }
+  .contactos-page__title { margin-top: 28px; }
+  .contactos-page__section { width: min(100% - 36px, 560px); grid-template-columns: minmax(0, 1fr); gap: 32px; }
+  .contactos-page__location { padding-block: 44px 28px; }
+  .contactos-page__details { justify-self: stretch; }
+  .contactos-page__details h2 { margin-bottom: 22px; }
+  .contactos-page__request { padding-block: 30px 60px; gap: 40px; }
+}

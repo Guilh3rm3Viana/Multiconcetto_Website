@@ -1,0 +1,25 @@
+.pdf-preview { display: grid; grid-template-columns: 190px minmax(0, 1fr); min-height: 0; background: #313131; }
+.pdf-preview__sidebar { display: flex; flex-direction: column; align-items: center; gap: 12px; min-height: 0; padding: 20px 16px; overflow-y: auto; background: #252525; font-size: .8rem; }
+.pdf-preview__sidebar button { width: 100%; padding: 0; border: 3px solid #83a8e8; background: transparent; }
+.pdf-preview__sidebar button:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
+.pdf-preview__sidebar img { width: 100%; height: auto; }
+.pdf-preview__main { display: grid; grid-template-rows: 46px minmax(0, 1fr); min-width: 0; min-height: 0; }
+.pdf-preview__toolbar { display: flex; align-items: center; justify-content: center; gap: 12px; padding: 5px 18px; background: #252525; color: #fff; font-size: .9rem; }
+.pdf-preview__toolbar button { width: 30px; height: 30px; padding: 0; border: 0; background: transparent; color: inherit; font-size: 1.5rem; line-height: 1; }
+.pdf-preview__toolbar button:hover:not(:disabled) { background: rgb(255 255 255 / .14); }
+.pdf-preview__toolbar button:disabled { opacity: .35; cursor: default; }
+.pdf-preview__toolbar input { width: 48px; padding: 4px; border: 0; background: #111; color: #fff; text-align: center; appearance: textfield; }
+.pdf-preview__toolbar input::-webkit-inner-spin-button, .pdf-preview__toolbar input::-webkit-outer-spin-button { appearance: none; }
+.pdf-preview__toolbar-spacer { width: 24px; }
+.pdf-preview__page { display: flex; align-items: flex-start; justify-content: center; min-width: 0; min-height: 0; padding: 24px; overflow: auto; }
+.pdf-preview__page canvas { display: block; max-width: none; background: #fff; box-shadow: 0 4px 18px rgb(0 0 0 / .3); }
+.pdf-preview__page p { align-self: center; max-width: 350px; line-height: 1.5; text-align: center; }
+
+@media (max-width: 760px) {
+  .pdf-preview { grid-template-columns: 1fr; }
+  .pdf-preview__sidebar { display: none; }
+  .pdf-preview__main { grid-template-rows: 44px minmax(0, 1fr); }
+  .pdf-preview__toolbar { gap: 7px; padding-inline: 6px; }
+  .pdf-preview__toolbar-spacer { width: 5px; }
+  .pdf-preview__page { padding: 14px; }
+}

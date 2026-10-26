@@ -1,0 +1,7 @@
+.represented-page { padding-top: 92px; padding-bottom: clamp(40px, 5vw, 80px); }
+.represented-page .brand-showcase:first-of-type { height: calc(100svh - 92px); }
+
+@media (max-width: 760px) {
+  .represented-page { padding-top: 72px; }
+  .represented-page .brand-showcase:first-of-type { height: calc(100svh - 72px); }
+}

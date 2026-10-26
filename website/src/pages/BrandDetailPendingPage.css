@@ -1,0 +1,10 @@
+.brand-detail-pending { min-height: 75svh; padding: 160px 24px 110px; display: grid; place-items: center; text-align: center; }
+.brand-detail-pending__content { width: min(100%, 560px); }
+.brand-detail-pending h1 { margin-bottom: 18px; font-size: clamp(2rem, 4vw, 3rem); font-weight: 400; }
+.brand-detail-pending p { margin-bottom: 30px; font-size: 1.05rem; line-height: 1.6; }
+.brand-detail-pending a { display: inline-block; padding-bottom: 5px; border-bottom: 1px solid currentColor; text-decoration: none; }
+.brand-detail-pending a:hover { opacity: .65; }
+
+@media (max-width: 760px) {
+  .brand-detail-pending { padding-top: 130px; }
+}
